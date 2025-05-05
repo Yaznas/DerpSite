@@ -1,5 +1,8 @@
 const Build = () => {
    return (
+      <><title> Build DerpFest</title>
+      <meta name="keywords" content="build derpfest" />
+      <meta name="description" content="Build DerpFest" />
       <div className="py-6">
          <h1 className="text-4xl text-center font-bold">Build</h1>
          <div class="p-6 md:px-12 px-6 leading-7">
@@ -50,8 +53,8 @@ const Build = () => {
             <p className="mb-3">
                It is necessary to clean up any specific files from LineageOS as these features depend on LOS SDK which
                won’t be available on DerpFest and will results in build failures. <span className="font-semibold">(e.g: Lineage Trust HAL
-            From the root of your device tree/common device tree rename the following folders/files from lineage to derp:
-            lineage-overlays)</span></p>
+                  From the root of your device tree/common device tree rename the following folders/files from lineage to derp:
+                  lineage-overlays)</span></p>
 
             <p className="mb-3">From device.mk/common.mk (also named as your SOC codename like msm8953.mk):</p>
 
@@ -79,7 +82,7 @@ const Build = () => {
                <br />make derp
             </div>
          </div>
-      </div>
+      </div></>
    );
 };
 

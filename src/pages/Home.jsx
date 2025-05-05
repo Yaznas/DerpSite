@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
    return (
+      <><title>DerpFest Home</title>
+      <meta name="keywords" content="derpfest, derpfest rom, derpfest android" />
+      <meta name="description" content="Home of the DerpFest Custom Android ROM" />
       <div>
          <div className="hero bg-base-100 min-h-150">
             <div className="hero-content text-center py-10">
@@ -26,7 +29,7 @@ const Home = () => {
                </div>
             </div>
          </div>
-      </div>
+      </div></>
    );
 };
 
