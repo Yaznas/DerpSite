@@ -1,0 +1,7 @@
+{
+  "name": "derpsite",
+  "compatibility_date": "2025-05-25",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  },
+}
